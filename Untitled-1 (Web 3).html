@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakmi Ayam 97</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e0a1;
+            color: #800000;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header {
+            background-color: #b22222;
+            color: gold;
+            padding: 15px;
+            font-size: 24px;
+            transform: translateY(-50px);
+            animation: slideDown 1s ease-out forwards;
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-50px); }
+            to { transform: translateY(0); }
+        }
+        .content {
+            padding: 20px;
+        }
+        .content section {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeSlide 1s ease-out forwards;
+        }
+        @keyframes fadeSlide {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .menu-item {
+            font-size: 20px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #b22222;
+            color: gold;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .logo {
+            width: 150px;
+            margin-top: 10px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in forwards;
+            animation-delay: 0.5s;
+        }
+        .menu-img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in forwards;
+            animation-delay: 0.8s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="2.jpg" alt="Logo Bakmi Ayam 97" class="logo">
+        <h1>Bakmi Ayam 97</h1>
+    </header>
+    <div class="content">
+        <section id="beranda">
+            <h2>Selamat Datang di Bakmi Ayam 97</h2>
+            <p>Bakmi Ayam 97 adalah pilihan terbaik bagi pecinta bakmi yang menginginkan cita rasa autentik dan kualitas premium. Berlokasi di Bandung, kami menghadirkan bakmi dengan tekstur kenyal yang dipadukan dengan ayam pilihan berkualitas, serta racikan bumbu khas yang menggugah selera.</p>
+        </section>
+        <section id="menu">
+            <h2>Menu Kami</h2>
+            <p class="menu-item">🍜 Bakmie Ayam Tabur</p>
+            <p class="menu-item">🍄 Bakmie Ayam Jamur</p>
+            <p class="menu-item">🌶 Bakmie Ayam Rica</p>
+            <p class="menu-item">🔥 Bakmie Chili Oil</p>
+        </section>
+        <section id="menu-foto">
+            <h2>Menu Favorit Kami</h2>
+            <img src="WhatsApp Image 2025-02-13 at 10.33.47_e668e09a.jpg" alt="Menu Bakmi Ayam 97" class="menu-img">
+        </section>
+        <section id="kontak">
+            <h2>Kontak & Lokasi</h2>
+            <p>📞 Nomor Telepon: 086547861565</p>
+            <p>📍 Lokasi: Bandung</p>
+        </section>
+        <section id="pemesanan">
+            <h2>Pemesanan Online</h2>
+            <p>📲 Hubungi kami melalui nomor telepon di atas.</p>
+            <p>🚀 Pesan juga melalui <a href="https://gofood.link" target="_blank">GoFood</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Bakmi Ayam 97 - Bandung</p>
+    </footer>
+</body>
+</html>
